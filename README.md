@@ -1,64 +1,108 @@
 # EventSpot Lite
 
-A responsive single-page web application where users can discover local events happening around them. Built using React.js, Vite, and Tailwind CSS, this application offers a visually appealing interface with smooth animations and is optimized for various screen sizes.
+A responsive single-page web application for discovering local events. Built with React + Vite and styled with Tailwind CSS, EventSpot Lite provides an intuitive interface for users to explore and learn about events happening around them.
 
-## Features
+## 🚀 Live Demo
 
-- **Event Listing Page**:
-  - Displays a list of events with mock data including event name, date, description, and location.
-  - Includes search functionality to filter events by `name` or `location`.
-- **Event Details Modal**:
-  - Clicking on an event card opens a modal with more details, including an event description and an image.
-- **Responsive Design**:
-  - The application adapts to different screen sizes, ensuring a seamless user experience on desktop, tablet, and mobile devices.
-- **UI and Animations**:
-  - Modern and intuitive design.
-  - Smooth animations for hover effects, modal transitions, and loading indicators.
-  - Visual feedback on user interactions, such as button clicks.
-- **Performance Optimization**:
-  - Optimized images and assets for faster loading times.
+[View Live Demo](https://rajat-kumar-event-spot-lite.vercel.app/)
 
-## Installation and Setup
+## ✨ Features
 
-### Prerequisites
+- **Event Discovery**: Browse through a curated list of local events
+- **Search Functionality**: Filter events by name or location
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **Interactive UI**: Smooth animations and transitions for enhanced user experience
+- **Event Details**: Modal view with comprehensive event information
+- **Performance Optimized**: Fast loading times with Vite build tool
 
-- Node.js (v16+ recommended)
-- Git
+## 🛠️ Technologies Used
 
-### Steps to Install and Run Locally
+- **React + Vite**: Frontend framework and build tool
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **Mock Data**: JSON files for event information
+
+## 📦 Installation
 
 1. Clone the repository:
-
 ```bash
-git clone https://github.com/your-website/Dhairya_Sethi_EventSpotLite.git
-cd EventSpotLite
+git clone https://github.com/razzaat/Rajat_Kumar_EventSpotLite.git
+cd Rajat_Kumar_EventSpotLite
 ```
 
 2. Install dependencies:
-
-Using npm:
-
 ```bash
 npm install
 ```
 
-3.  Start the development server:
-
-Using npm:
-
+3. Start the development server:
 ```bash
 npm run dev
 ```
 
-4. Open the application:
+4. Open [http://localhost:5173](http://localhost:5173) in your browser (Vite's default port)
 
-The development server will start on `http://localhost:5173`.
+## 🏗️ Project Structure
 
-## Technologies Used
+```
+src/
+├── components/         # Reusable UI components
+├── data/              # Mock data files
+└── App.jsx            # Main application component
+```
 
-- **Frontend**: React.js, Vite
-- **Styling**: Tailwind CSS
+## 🎨 UI Components
 
-## Contact
+### Event Listing Page
+- Grid view of event cards with Tailwind CSS styling
+- Search bar for filtering events
+- Responsive layout with clean transitions
 
-For any questions or issues, please open an issue on GitHub.
+### Event Details Modal
+- Detailed event information
+- Smooth transition animations
+- Event image display
+
+
+## 🔧 Development
+
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+
+### Available Scripts
+
+- `npm run dev`: Start Vite development server
+- `npm run build`: Build for production
+- `npm run preview`: Preview production build locally
+
+## 📱 Responsive Design
+
+The application is optimized for all devices using Tailwind's responsive breakpoints
+
+## ⚡ Performance Optimization
+
+- Vite's built-in optimization features
+- Tailwind CSS purging unused styles
+- Optimized image assets
+- Smooth animations and transitions
+
+## 🚀 Deployment
+
+This project is deployed on Vercel. To deploy your own version:
+
+1. Fork this repository
+2. Sign up for a [Vercel](https://vercel.com) account
+3. Connect your GitHub repository
+4. Deploy with default settings
+5. Your site will be live at your-project-name.vercel.app
+
+
+
+## 👤 Author
+
+Rajat Kumar
+- GitHub: [@razzaat](https://github.com/razzaat)
+
+---
+
+**Note**: This project was created as part of a coding assessment. The focus was on creating a responsive, animated user interface using React, Vite, and Tailwind CSS while maintaining code quality and performance standards.
