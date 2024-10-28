@@ -33,7 +33,7 @@ const eventsData = [
     location: "Convention Center",
     description:
       "Join us at the Literary Book Fair for author meet-and-greets, panel discussions, and book signings. Discover new genres and titles across fiction and non-fiction, and participate in engaging workshops for aspiring writers. Attend special sessions on self-publishing and marketing your work.",
-    image: "./literaryBookFair.jpg",
+    image: "./bookFair.jpg",
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const eventsData = [
     location: "Tech Hub",
     description:
       "Engage with industry leaders at the Innovation Tech Conference. Attend keynote speeches, network with professionals, and take part in cutting-edge workshops that showcase the latest in technology and entrepreneurship. Explore startup showcases and connect with potential investors.",
-    image: "./innovationTech.jpg",
+    image: "./innovation.jpg",
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const eventsData = [
     location: "City Theater",
     description:
       "Experience a curated selection of indie films from around the globe at the Global Film Festival. Attend exclusive screenings, engage in Q&A sessions with filmmakers, and participate in workshops focused on independent cinema. Network with fellow film enthusiasts and explore filmmaking techniques.",
-    image: "./globalFilmFestival.jpg",
+    image: "./filmfest.jpg",
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const eventsData = [
     location: "City Streets",
     description:
       "Run for a cause at the annual Charity Marathon. Whether you're an experienced runner or just starting out, join the community to raise funds for local charities. Enjoy live music, refreshments, and post-race celebrations. Collect sponsorships to support your chosen cause.",
-    image: "./charityMarathon.jpg",
+    image: "./marathon.jpg",
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const eventsData = [
     location: "Science Center",
     description:
       "Engage with the wonders of science at the STEM Science Fair. Explore interactive exhibits, attend live demonstrations, and participate in workshops led by scientists and educators. A perfect event for families and curious minds. Join competitions to win exciting science kits!",
-    image: "./STEMScienceFair.jpg",
+    image: "./stemsci.jpg",
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const eventsData = [
     location: "Market Square",
     description:
       "Get into the holiday spirit at the Winter Holiday Market. Shop for unique gifts, enjoy festive treats, and participate in fun holiday activities for the whole family. Live music and entertainment will create a joyful atmosphere. Join our community tree lighting ceremony for a magical evening.",
-    image: "./winterHolidayMarket.jpg",
+    image: "./holidaymarket.jpg",
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ const eventsData = [
     location: "Dance Studio",
     description:
       "Join us for an Energetic Dance Workshop that welcomes all skill levels. Learn new styles, improve your technique, and meet fellow dance enthusiasts in a lively, supportive environment. Bring your enthusiasm and get ready to move! Experience the joy of dance through themed sessions.",
-    image: "./energeticDanceWorkshop.jpg",
+    image: "./dance.jpg",
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const eventsData = [
     location: "Vineyard",
     description:
       "Indulge in a delightful evening of wine and cheese pairings at our Gourmet Tasting event. Enjoy a guided tour of the vineyard, learn about the art of winemaking, and savor a variety of wines paired with artisanal cheeses. Engage with sommeliers and enhance your palate with expert tips.",
-    image: "./gourmetWineCheese.jpg",
+    image: "./wine&cheese.jpg",
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const eventsData = [
     location: "Photo Center",
     description:
       "Showcase your photography skills in our Annual Photography Contest. Submit your best work, receive constructive feedback from professionals, and compete for exciting prizes across multiple categories. Open to photographers of all levels. Attend workshops to improve your skills and gain insights from experts.",
-    image: "./annualPhotographyContest.jpg",
+    image: "./photography.jpg",
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ const eventsData = [
     location: "Community Garden",
     description:
       "Join our Sustainable Gardening Workshop and learn about eco-friendly gardening techniques. Participate in hands-on activities, get tips from expert gardeners, and take home your very own plant to nurture and grow. Discover the benefits of organic gardening for the environment.",
-    image: "./sustainableGardening.jpg",
+    image: "./garden.jpg",
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ const eventsData = [
     location: "City Square",
     description:
       "Celebrate diversity at the Cultural Celebration Fest. Enjoy a variety of performances, food stalls, and craft workshops from different cultures. Participate in interactive activities that promote understanding and appreciation of global traditions. Engage with storytellers and artists to learn about their heritage.",
-    image: "./culturalCelebrationFest.jpg",
+    image: "./culture.jpg",
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ const eventsData = [
     location: "Wellness Center",
     description:
       "Take a break from your routine at the Mindfulness and Wellness Retreat. Engage in yoga sessions, guided meditations, and workshops focused on mental well-being and self-care. Connect with like-minded individuals in a serene setting. Enjoy nature walks and mindfulness exercises to rejuvenate your spirit.",
-    image: "./mindfulnessRetreat.jpg",
+    image: "./mindfulness.jpg",
   },
 ];
 
