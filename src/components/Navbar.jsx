@@ -11,7 +11,7 @@ const Navbar = ({ onSearch }) => {
 
   return (
     <>
-      <h1 className="px-8 py-2 mt-8 font-mono text-6xl font-bold tracking-tighter uppercase border rounded-2xl backdrop-blur-sm">
+      <h1 className="px-8 py-2 mt-8 font-mono text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter uppercase border rounded-2xl backdrop-blur-sm">
         Event Spot Lite
       </h1>
       <nav className="flex flex-col items-center justify-between p-2 border rounded-2xl backdrop-blur-sm border-black/15">

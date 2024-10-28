@@ -46,11 +46,11 @@ const EventModal = ({ event, onClose }) => {
         <div className="p-4 md:p-5">
           <h3 className="text-lg font-bold text-gray-800">
             {event.id}. {event.name}{" "}
-            <span className="text-xs font-semibold text-neutral-600">
+            <span className="block sm:inline text-xs font-semibold text-neutral-600">
               {event.date}
             </span>
           </h3>
-          <p className="mt-1 text-neutral-700">{event.description}</p>
+          <p className="mt-3 sm:mt-1 text-neutral-700">{event.description}</p>
         </div>
       </div>
     </div>
